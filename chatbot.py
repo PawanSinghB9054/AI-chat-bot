@@ -9,7 +9,7 @@ load_dotenv()
 
 # Initialize Groq Llama model
 model = init_chat_model(
-    "llama-3.3-70b-versatile",
+    "openai/gpt-oss-120b",
     model_provider="groq"
 )
 
